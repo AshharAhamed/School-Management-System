@@ -500,4 +500,37 @@ GitHub.sublime-settings
 
 # Sonarlint plugin
 
-# End of https://www.gitignore.io/api/java,react,eclipse,java-web,intellij,netbeans,webstorm,phpstorm,code-java,notepadpp,sublimetext,webstorm+all,intellij+all
+# End of https://www.gitignore.io/api/java,react,eclipse,java-web,intellij,netbeans,webstorm,phpstorm,code-java,notepadpp,sublimetext,webstorm+all,intellij+all 
+
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
